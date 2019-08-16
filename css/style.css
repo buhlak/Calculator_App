@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(2, 20, 240, 0.20);
+    box-shadow: 0 0 6px 2px rgba(2, 20, 240, 0.20);
+}
+
+.input-output-block {
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    margin: 0 auto 10px auto;
+    border: 1px solid rgba(74, 74, 89, 0.45);
+    outline-color: transparent;
+    font: bold 20px "Rubik", sans-serif;
+    letter-spacing: 1px;
+    background-color: transparent;
+    caret-color: rgba(2, 20, 240, 0.40);
+}
+
+.handle-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    font: bold 20px "Rubik", sans-serif;
+    text-align: center;
+}
+
+.button {
+    width: 55px;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: rgba(30, 10, 230, 0.20);
+    border: 1px solid rgba(74, 74, 89, 0.15);
+    cursor: pointer;
+}
+
+.delete-input-val {
+    padding: 22px 0;
+    background-image: url("../backspace.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
